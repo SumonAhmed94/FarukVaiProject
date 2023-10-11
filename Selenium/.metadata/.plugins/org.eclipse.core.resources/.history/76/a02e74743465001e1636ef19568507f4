@@ -1,0 +1,20 @@
+package com.facebook.loginTests;
+
+import org.testng.annotations.Test;
+
+import com.facebook.base.BaseTest;
+import com.facebook.loginPages.LoginPage;
+import com.facebookUtilities.PropertiesReader;
+
+public class LoginTest extends BaseTest {
+LoginPage loginpage;
+PropertiesReader pr;
+@Test
+public void loginTest() {
+	pr=new PropertiesReader();
+	loginpage=new LoginPage(driver);
+	loginpage.usernameMethod(pr.getUserName());
+	loginpage.passWordMethod(pr.getPassword());
+	loginpage.loginButton();
+}
+}

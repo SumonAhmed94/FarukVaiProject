@@ -1,0 +1,5 @@
+package com.instagram.pageObjectModel_LoginPages;
+
+public class LoginPage {
+
+}

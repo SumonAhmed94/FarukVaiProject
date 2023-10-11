@@ -1,0 +1,5 @@
+package com.instagram.utilities;
+
+public class PropertiesReader {
+
+}

@@ -1,0 +1,16 @@
+package com.facebookUtilities;
+
+public class ExcelReader {
+
+	public static void main(String[] args) {
+	/*
+	 * Workbook name registration
+	 * Sheet name = Sheet 1, Sheet,2, Sheet,3
+	 * In Java Row start with 0
+	 * Column start with 0
+	 * 	Cell = intersection of row and column
+	 */
+
+	}
+
+}

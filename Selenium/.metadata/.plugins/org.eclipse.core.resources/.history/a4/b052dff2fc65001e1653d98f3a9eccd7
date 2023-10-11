@@ -1,0 +1,15 @@
+package com.facebook.registrationPages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class Registrationpage {
+WebDriver driver;
+
+public Registrationpage(WebDriver driver) {
+	super();
+	this.driver = driver;
+	PageFactory.initElements(driver, this);
+}
+
+}

@@ -1,0 +1,5 @@
+package com.instagram.pageObjectModel_LoginTests;
+
+public class LoginTest {
+
+}

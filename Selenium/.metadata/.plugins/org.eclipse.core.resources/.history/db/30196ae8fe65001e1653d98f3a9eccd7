@@ -1,0 +1,10 @@
+package com.facebook.registrationTests;
+
+import com.facebook.base.BaseTest;
+import com.facebook.registrationPages.Registrationpage;
+
+public class RegistrationTest extends BaseTest {
+	Registrationpage regPage;
+	@BeforeMethod
+	public void
+}

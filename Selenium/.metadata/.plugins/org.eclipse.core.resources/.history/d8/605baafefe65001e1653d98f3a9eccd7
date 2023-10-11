@@ -1,0 +1,20 @@
+package com.facebook.registrationTests;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.facebook.base.BaseTest;
+import com.facebook.registrationPages.Registrationpage;
+
+public class RegistrationTest extends BaseTest {
+	Registrationpage regPage;
+	@BeforeMethod
+	public void openFacebook() {
+		openApp();
+	}
+	@Test
+	public void createRegistrationTest() {
+		regPage=new Registrationpage(driver);
+		
+	}
+}

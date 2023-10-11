@@ -1,0 +1,23 @@
+Step One-
+	create maven project
+Step Two-
+	update pom.xml file--then maven update
+	1.properties
+	2.dependencies
+	3.plug-ins
+Step 3
+	Create and update appropriate package and classes in the src/main\
+	
+Step 4
+	Build BaseTest with is a relationship
+	openBrowser and application
+	close browser and application
+	take screenshot
+	assertion
+Step 5
+	Build propertiesReader in the utilities package and
+	Create method for each key
+	
+Step 6
+	develop packages for different pages using page object model style of coding
+	use PageFactory.initelements class if possible

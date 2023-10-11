@@ -1,0 +1,21 @@
+package com.facebookUtilities;
+
+public class ExcelReader {
+
+	public static void main(String[] args) {
+	/*
+	 * Workbook name registration
+	 * Sheet name = Sheet 1, Sheet,2, Sheet,3
+	 * In Java Row start with 0
+	 * Column start with 0
+	 * 	Cell = intersection of row and column
+	 * Faruk=registration.xlsx= Sheet1=Row=1=column String=Cell 
+	 * Index start from 0
+	 * row start from 0
+	 * column start from 0
+	 * row always come first
+	 */
+
+	}
+
+}

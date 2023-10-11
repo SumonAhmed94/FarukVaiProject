@@ -1,0 +1,27 @@
+package com.facebook.registrationTests;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.facebook.base.BaseTest;
+import com.facebook.registrationPages.Registrationpage;
+import com.facebookUtilities.ExcelReader;
+
+public class RegistrationTest extends BaseTest {
+	Registrationpage regPage;
+	ExcelReader exReader;
+	@BeforeMethod
+	public void openFacebook() {
+		openApp();
+	}
+	@Test
+	public void createRegistrationTest() {
+		regPage=new Registrationpage(driver);
+		regPage.CreateNewAccountButton();
+		String file="src/test/resources/registration.xlsx";
+		String sheetName="Sheet1";
+		exReader= new ExcelReader(file, sheetName);
+		
+		regPage.firstNameMethod(file);
+	}
+}
